@@ -1,7 +1,7 @@
 document.getElementById('btn').addEventListener('click', function() {
     const startLocation = document.getElementById('start').value;
     const endLocation = document.getElementById('end').value;
-    const apiKey = 'DX2sgjL6HrrnL5hhmAy4kIrCQudTh6ys'; 
+    const apiKey = 'QvIbNhEFkn4q4X2dBzT1JVi7qu6JW9J6'; 
 
     if (!startLocation || !endLocation) {
         alert("Please enter both locations.");
